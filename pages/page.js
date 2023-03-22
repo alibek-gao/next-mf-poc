@@ -18,7 +18,7 @@ export function Page({ test }) {
           </p>
 
           <div>
-            <Link href={'/'}>Home</Link>
+            <Link href={'/'}>Click here to visit Home page</Link>
           </div>
         </div>
       </main>
