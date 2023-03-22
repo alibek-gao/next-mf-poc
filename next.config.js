@@ -8,9 +8,9 @@ const nextConfig = {
       new NextFederationPlugin({
         name: 'poc',
         filename: 'static/chunks/remoteEntry.js',
-        extraOptions: {
-          automaticAsyncBoundary: true,
-        },
+        // extraOptions: {
+        //   automaticAsyncBoundary: true,
+        // },
         exposes: {},
         shared: {},
       })
