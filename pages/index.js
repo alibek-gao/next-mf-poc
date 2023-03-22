@@ -17,7 +17,7 @@ export function Home({ test }) {
             type of {typeof test} and value of {test || 'undefined'}
           </p>
           <div>
-            <Link href={'/page'}>Another page</Link>
+            <Link href={'/page'}>Click here to visit Another page</Link>
           </div>
         </div>
       </main>
