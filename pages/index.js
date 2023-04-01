@@ -17,7 +17,13 @@ export function Home({ test }) {
             type of {typeof test} and value of {test || 'undefined'}
           </p>
           <div>
-            <Link href={'/page'}>Click here to visit Another page</Link>
+            <Link href={'/page'}>Another page - LOCAL</Link>
+          </div>
+          <div>
+            <Link href={'/page2'}>Another page - REMOTE (async)</Link>
+          </div>
+          <div>
+            <Link href={'/page3'}>Another page - REMOTE (next/dynamic)</Link>
           </div>
         </div>
       </main>
